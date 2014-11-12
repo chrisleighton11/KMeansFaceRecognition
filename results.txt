@@ -1,0 +1,5 @@
+Results for Test run at 07/01/2011 15:17:12
+Training File: C:\Code\CS5880\project\train_100fafb.dat
+Test File    : C:\Code\CS5880\project\train_100fafb.dat
+---------------------------------------
+Starting UPGMA on original images with Cosine Coefficient

@@ -1,0 +1,22 @@
+Results for Test run at 06/29/2011 09:21:41
+Training File: /home/chrisleighton11/cs5880/grayferet/training_files/train_5fa.dat
+Test File    : /home/chrisleighton11/cs5880/grayferet/test_files/test_20fb.dat
+---------------------------------------
+Total Tested   : 39
+Total Found    : 7
+Total Not Found: 32
+Train time(ms) : 382
+Test time (ms) : 2018
+Percent Found     : 17.9487
+Percent Not Found : 82.0513
+Starting UPGMA on original images with Cosine Coefficient
+Cluster n: (image index|Person ID, ......)
+Performed UPGMA on original images with Cosine Coefficient 6 ms.
+Starting UPGMA on original images with Canberra Metric Coefficient
+Cluster n: (image index|Person ID, ......)
+Cluster 0: (3|2, 0|1, 2|2, 1|2, 4|2)
+Performed UPGMA on original images with Canberra Metric Coefficient 6 ms.
+Starting UPGMA on original images with Bray-Curtis Coefficient
+Cluster n: (image index|Person ID, ......)
+Cluster 0: (3|2, 0|1, 2|2, 1|2, 4|2)
+Performed UPGMA on original images with Bray-Curtis Coefficient 5 ms.

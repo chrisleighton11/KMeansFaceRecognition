@@ -1,0 +1,113 @@
+Results for Test run at 06/30/2011 11:12:14
+Training File: /home/chrisleighton11/cs5880/grayferet/training_files/train_20fa.dat
+Test File    : /home/chrisleighton11/cs5880/grayferet/test_files/test_50fb.dat
+---------------------------------------
+Starting KMeans on original images
+Results for KMeans on original images
+Image ID: 1 Clusters to: 1Cluster Center: 1.00568e-38
+Image ID: 2 Clusters to: 2Cluster Center: 1.01022e-38
+Image ID: 2 Clusters to: 2Cluster Center: 1.01476e-38
+Image ID: 2 Clusters to: 4Cluster Center: 1.01937e-38
+Image ID: 2 Clusters to: 2Cluster Center: 1.02388e-38
+Image ID: 2 Clusters to: 2Cluster Center: 1.02821e-38
+Image ID: 2 Clusters to: 2Cluster Center: 1.03237e-38
+Image ID: 3 Clusters to: 3Cluster Center: 1.03647e-38
+Image ID: 3 Clusters to: 3Cluster Center: 1.04043e-38
+Image ID: 3 Clusters to: 3Cluster Center: 1.04436e-38
+Image ID: 3 Clusters to: 3Cluster Center: 1.04823e-38
+Image ID: 3 Clusters to: 3Cluster Center: 1.05208e-38
+Image ID: 4 Clusters to: 4Cluster Center: 1.05597e-38
+Image ID: 5 Clusters to: 5Cluster Center: 1.05995e-38
+Image ID: 5 Clusters to: 5Cluster Center: 1.06385e-38
+Image ID: 6 Clusters to: 6Cluster Center: 1.06768e-38
+Image ID: 6 Clusters to: 6Cluster Center: 1.07152e-38
+Image ID: 6 Clusters to: 15Cluster Center: 1.07555e-38
+Image ID: 7 Clusters to: 7Cluster Center: 1.07961e-38
+Image ID: 8 Clusters to: 8Cluster Center: 1.08354e-38
+Image ID: 9 Clusters to: 9Cluster Center: 1.0876e-38
+Image ID: 10 Clusters to: 10Cluster Center: 1.09185e-38
+Image ID: 11 Clusters to: 11Cluster Center: 1.09608e-38
+Image ID: 12 Clusters to: 12Cluster Center: 1.10019e-38
+Image ID: 13 Clusters to: 13Cluster Center: 1.1041e-38
+Image ID: 13 Clusters to: 13Cluster Center: 1.10805e-38
+Image ID: 13 Clusters to: 13Cluster Center: 1.11196e-38
+Image ID: 14 Clusters to: 14Cluster Center: 1.11583e-38
+Image ID: 15 Clusters to: 15Cluster Center: 1.11968e-38
+Image ID: 16 Clusters to: 16Cluster Center: 1.12358e-38
+Image ID: 17 Clusters to: 17Cluster Center: 1.1276e-38
+Image ID: 18 Clusters to: 18Cluster Center: 1.1316e-38
+Image ID: 19 Clusters to: 19Cluster Center: 1.13549e-38
+Image ID: 19 Clusters to: 19Cluster Center: 1.1399e-38
+Image ID: 19 Clusters to: 19Cluster Center: 1.14464e-38
+Image ID: 19 Clusters to: 19Cluster Center: 1.14935e-38
+Image ID: 20 Clusters to: 20Cluster Center: 1.15407e-38
+Image ID: 20 Clusters to: 20Cluster Center: 1.15884e-38
+Image ID: 20 Clusters to: 20Cluster Center: 1.1638e-38
+Image ID: 20 Clusters to: 20Cluster Center: 1.16884e-38
+Performed KMeans on original images in 2018 ms.
+Starting UPGMA on original images with Cosine Coefficient
+Cluster n: (image index|Person ID, ......)
+Cluster 0: (3|2)
+Cluster 1: (13|5)
+Cluster 2: (14|5)
+Cluster 3: (17|6)
+Cluster 4: (19|8)
+Cluster 5: (22|11)
+Cluster 6: (26|13)
+Cluster 7: (27|14)
+Cluster 8: (30|17)
+Cluster 9: (31|18)
+Cluster 10: (33|19)
+Cluster 11: (35|19)
+Cluster 12: (38|20)
+Cluster 13: (23|12, 25|13)
+Cluster 14: (8|3, 11|3)
+Cluster 15: (34|19, 1|2, 2|2)
+Cluster 16: (12|4, 29|16, 0|1, 18|7, 21|10)
+Cluster 17: (20|9, 37|20, 39|20)
+Cluster 18: (7|3, 9|3)
+Performed UPGMA on original images with Cosine Coefficient 157 ms.
+Starting UPGMA on original images with Canberra Metric Coefficient
+Cluster n: (image index|Person ID, ......)
+Cluster 0: (0|1)
+Cluster 1: (7|3)
+Cluster 2: (9|3)
+Cluster 3: (10|3)
+Cluster 4: (14|5)
+Cluster 5: (19|8)
+Cluster 6: (20|9)
+Cluster 7: (31|18)
+Cluster 8: (35|19)
+Cluster 9: (25|13, 24|13)
+Cluster 10: (16|6, 15|6)
+Cluster 11: (2|2, 1|2, 4|2, 6|2, 5|2)
+Cluster 12: (28|15, 17|6)
+Cluster 13: (11|3, 8|3)
+Cluster 14: (39|20, 38|20, 37|20, 36|20)
+Cluster 15: (29|16, 3|2, 13|5, 12|4)
+Cluster 16: (21|10, 18|7)
+Cluster 17: (34|19, 33|19)
+Cluster 18: (26|13, 23|12, 32|19, 27|14, 30|17, 22|11)
+Performed UPGMA on original images with Canberra Metric Coefficient 234 ms.
+Starting UPGMA on original images with Bray-Curtis Coefficient
+Cluster n: (image index|Person ID, ......)
+Cluster 0: (0|1)
+Cluster 1: (7|3)
+Cluster 2: (9|3)
+Cluster 3: (10|3)
+Cluster 4: (14|5)
+Cluster 5: (19|8)
+Cluster 6: (20|9)
+Cluster 7: (31|18)
+Cluster 8: (33|19)
+Cluster 9: (35|19)
+Cluster 10: (16|6, 15|6)
+Cluster 11: (39|20, 38|20, 37|20, 36|20)
+Cluster 12: (11|3, 8|3)
+Cluster 13: (13|5, 12|4, 29|16, 3|2, 28|15)
+Cluster 14: (21|10, 18|7)
+Cluster 15: (2|2, 1|2, 4|2, 6|2, 5|2)
+Cluster 16: (25|13, 24|13, 34|19)
+Cluster 17: (26|13, 23|12, 32|19, 30|17, 27|14)
+Cluster 18: (22|11, 17|6)
+Performed UPGMA on original images with Bray-Curtis Coefficient 154 ms.
